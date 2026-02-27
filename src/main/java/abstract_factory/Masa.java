@@ -1,6 +1,6 @@
 package abstract_factory;
 
 public interface Masa {
-    String descripcion();
+    void descripcion();
     double precio();
 }
