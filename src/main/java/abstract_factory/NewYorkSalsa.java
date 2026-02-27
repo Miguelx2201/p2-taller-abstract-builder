@@ -1,6 +1,6 @@
 package abstract_factory;
 
-public class NewYorkSalsa {
+public class NewYorkSalsa implements  Salsa {
     public void descripcion() {
         System.out.println("Salsa de tomate");
     }
