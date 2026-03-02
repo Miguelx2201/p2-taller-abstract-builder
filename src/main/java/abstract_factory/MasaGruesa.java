@@ -1,10 +1,13 @@
 package abstract_factory;
 
-public class NewYorkSalsa {
+public class MasaGruesa implements Masa{
+
+
     public String descripcion() {
-        System.out.println("Salsa de tomate");
+        return "Masa Gruesa";
     }
+
     public double precio() {
-        return 2;
+        return 5.0;
     }
 }

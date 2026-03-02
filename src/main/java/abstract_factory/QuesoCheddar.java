@@ -1,10 +1,12 @@
 package abstract_factory;
 
-public class NewYorkSalsa {
+public class QuesoCheddar implements Queso {
+
     public String descripcion() {
-        System.out.println("Salsa de tomate");
+        return "Queso Cheddar";
     }
+
     public double precio() {
-        return 2;
+        return 3.5;
     }
 }

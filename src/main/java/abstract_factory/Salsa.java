@@ -1,6 +1,6 @@
 package abstract_factory;
 
 public interface Salsa {
-    void descripcion();
+    String descripcion();
     double precio();
 }
