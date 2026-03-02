@@ -1,7 +1,7 @@
 package abstract_factory;
 
 public class NewYorkSalsa {
-    public String descripcion() {
+    public void descripcion() {
         System.out.println("Salsa de tomate");
     }
     public double precio() {
