@@ -1,18 +1,14 @@
 package abstract_factory;
 
 public class IngredientesNY implements IngredientesFactory{
-    @Override
-    public Salsa crearSalsa() {
-        return new NewYorkSalsa();
+    public Salsa crearSalsa(){
+        return new SalsaTomate();
     }
 
-    @Override
-    public Queso crearQueso() {
-        return new NewYorkQueso();
+    public Queso crearQueso(){
+        return new QuesoMozzarella();
     }
-
-    @Override
-    public Masa crearMasa() {
-        return new NewYorkMasa();
+    public Masa crearMasa(){
+        return new MasaFina();
     }
 }
